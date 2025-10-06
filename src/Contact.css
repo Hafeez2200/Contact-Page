@@ -1,0 +1,28 @@
+.gradient-bg {
+        background-color: #0f0f1c;
+        background-image: radial-gradient(
+            circle at center top,
+            rgba(124, 58, 237, 0.25),
+            transparent 50%
+          ),
+          linear-gradient(180deg, #0f0f1c, #0a0a1a);
+      }
+
+.glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }      
+
+.form-input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }        
+
+.form-input:focus {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(168, 85, 247, 0.8);
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.3);
+        }        
